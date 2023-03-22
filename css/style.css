@@ -1,0 +1,42 @@
+.card {
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.card-header {
+    justify-content: center;
+    text-align: center;
+    font-size: large;
+}
+
+.card-text {
+    /* width: 80%; */
+    color: var(--color-2);
+    font-size: 15px;
+    text-align: center;
+}
+
+.card-img-top {
+    width: fit-content;
+    display: flex;
+    border-top: 1em;
+    background-color: var(--color-3);
+
+}
+
+.card-header,
+.card-text.btn
+.choice{
+  padding: 0 1em;
+}
+
+.choice {
+    color: var(--color-1);
+    display: grid;
+    grid-template-columns: max-content;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}

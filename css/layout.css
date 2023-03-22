@@ -1,0 +1,20 @@
+.body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    height: 100vh;
+    background-color: var(--color-5);
+    /* font-size: 15px; */
+  }
+  
+  .card {
+    min-width: 375px;
+    max-width: var(--mobile-width);
+    background-color: var(--color-4);
+    color: var(--color-4)
+  }
+
+  .card-title {
+    color: var(--color-1);
+  }
