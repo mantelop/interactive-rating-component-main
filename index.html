@@ -17,9 +17,9 @@
 
 <body class="body">
 
-  <article class="card">
+  <article class="card rating-state none">
     <header class="card-header">
-      <img class="card-img-top image" src="./images/icon-star.svg" alt="qr-image">
+      <div class="image"></div>
       <h2 class="card-title">
         How did we do?
       </h2>
@@ -28,13 +28,19 @@
       Please let us know how we did with your support request. All feedback is appreciated
       to help us improve our offering!
     </p>
-    <div class="choice">1 2 3 4 5</div>
+    <fieldset class="btn-group">
+      <input type="button" value="1">
+      <input type="button" value="2">
+      <input type="button" value="3">
+      <input type="button" value="4">
+      <input type="button" value="5">
+    </fieldset>
     <button class="btn">Submit</button>
   </article>
 
   <!-- Thank you state start -->
-  <div class="thank-you" style="display: none">
-
+  <article class=" card thank-you-state none">
+    <img src="/images/illustration-thank-you.svg" alt="">
     You selected <!-- Add rating here --> out of 5
 
     Thank you!
@@ -44,7 +50,7 @@
 
     <!-- Thank you state end -->
 
-  </div>
+  </article>
 
 </body>
 
